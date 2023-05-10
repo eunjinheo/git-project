@@ -1,4 +1,4 @@
-# 점수 변환 함수
+
 def allocate_course_id(course_id_map, course_name):
     if course_name not in course_id_map:
         new_id = str(int(course_id_map['id']) + 1)
